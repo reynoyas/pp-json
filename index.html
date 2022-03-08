@@ -13,7 +13,16 @@
 <script src = "//code.jquery.com/jquery.js"></script>
 
 <script>
+    $("#get").on("click", function(){
+        /*alert("hello");*/
 
+        $.getJSON("music.json", function(result) {
+            $("#output").html(result);
+            $.each(result, function(item) {
+                $("#output").append(item.artist.name +"<br>");
+            });
+        });
+    });
 
 
 </script>

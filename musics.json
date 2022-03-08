@@ -1,0 +1,16 @@
+[
+  {
+    "artist": {
+      "familiarity": 0.581793766,
+      "hotttnesss": 0.401997543,
+      "id": "ARD7TVE1187B99BFB1",
+      "latitude": 0.0,
+      "location": 0,
+      "longitude": 0.0,
+      "name": "Casual",
+      "similar": 0.0,
+      "terms": "hip hop",
+      "terms_freq": 1.0
+    }
+  }
+    ]
